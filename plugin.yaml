@@ -1,0 +1,12 @@
+name: hermes-a2a-admin
+version: 0.1.0
+description: >-
+  A2A administration for a Hermes fleet: per-profile status (port,
+  reachability, identity present, peers, latest audit entries) with its own
+  surface in the web dashboard (dashboard/) and in the desktop app (desktop/).
+  Both use the backend namespace /api/plugins/hermes-a2a-admin/. The status
+  views are read-only; configuration actions (tokens, auth, timeouts, peers)
+  are explicit calls from the UI.
+author: hermes-plugin-contributors
+license: MIT
+kind: backend

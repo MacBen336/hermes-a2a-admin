@@ -1,0 +1,13 @@
+{
+  "name": "hermes-a2a-admin",
+  "label": "A2A",
+  "description": "A2A identity, peers and reachability per profile — status and configuration.",
+  "icon": "Plug",
+  "version": "0.1.0",
+  "tab": {
+    "path": "/a2a",
+    "position": "after:skills"
+  },
+  "entry": "dist/index.js",
+  "api": "plugin_api.py"
+}
